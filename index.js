@@ -18,8 +18,8 @@ function destructivelyRemoveFirstKitten(name){
   return kittens
 }
 
-function appendKitten(name){
-  var newKittens = [kittens.push(name)]
+function appendKitten(array,name){
+  var newKittens = [array.push(name)]
   
   //newKittens.push(name)
   
