@@ -19,9 +19,9 @@ function destructivelyRemoveFirstKitten(name){
 }
 
 function appendKitten(array,name){
-  var newKittens = [array.push(name)]
+  var newKittens = [array]
   
-  //newKittens.push(name)
+  newKittens.push(name)
   
   return newKittens
 }
