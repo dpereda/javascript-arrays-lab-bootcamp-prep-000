@@ -1,5 +1,5 @@
 const app = "I don't do much."
-console.log(kitten)
+
 function destructivelyAppendKitten(name){
   //console.log(kittens)
   return kittens.push(name)
