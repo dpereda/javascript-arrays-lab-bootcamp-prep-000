@@ -1,5 +1,5 @@
 const app = "I don't do much."
-
+console.log(kittens)
 function destructivelyAppendKitten(name){
   //console.log(kittens)
   return kittens.push(name)
@@ -17,6 +17,8 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift()
   return kittens
 }
+
+
 function appendKitten(name){
   console.log(kittens[0])
   
